@@ -1,12 +1,3 @@
-/*
-  PlatformIO library configuration file for RFduino.
-  Based on the stock Arduino configuration found here: http://www.rfduino.com/package_rfduino_index.json
-  
-  Note: I've commented the JSON for my own sanity.
-        If that proves to cause issues, I'll remove the comments and that will make me sad.
-        
-  Status: Pre-alpha - Still in development
-*/
 {
   "keywords": [
       "RFduino"
@@ -24,7 +15,6 @@
     }
   ],
   "description": "A finger-tip sized, Arduino compatible, wireless enabled microcontroller",
-  /* Currently hardcoding the archive URL and version. Maybe just point to the live repo (which has version tags) instead? */
   "downloadUrl": "http://www.rfdigital.com/wp-content/uploads/2014/03/RFduino_2.3.1.zip",
   "version": "2.3.1",
   "__disabled__repository": {
@@ -35,11 +25,6 @@
     "libraries/RFduinoBLE/examples/",
     "libraries/RFduinoGZLL/examples/",
     "libraries/RFduinoNonBLE/examples/"
-    /* It is unclear if the subdirectory "examples" format would work for a repository, rather than an downloadUrl archive
-    "https://github.com/RFduino/RFduino/tree/master/libraries/RFduinoBLE/examples/",
-    "https://github.com/RFduino/RFduino/tree/master/libraries/RFduinoGZLL/examples/",
-    "https://github.com/RFduino/RFduino/tree/master/libraries/RFduinoNonBLE/examples/",
-    */
   ],
   "frameworks": "arduino",
   "platforms": [
@@ -48,11 +33,9 @@
   "dependencies": [
     {
         "name": "arm-none-eabi-gcc"
-        /* "version": "4.8.3-2014q1" */
     },
     {
         "name": "RFDLoader"
-        /* "version": "1.5" */
     }
   ]
 }
