@@ -1,8 +1,8 @@
 {
+  "name": "RFduino",
   "keywords": [
       "RFduino"
   ],
-  "name": "RFduino",
   "authors": [
     {
       "name": "RFduino Team",
@@ -30,12 +30,4 @@
   "platforms": [
     "RFduino"
   ],
-  "dependencies": [
-    {
-        "name": "arm-none-eabi-gcc"
-    },
-    {
-        "name": "RFDLoader"
-    }
-  ]
 }
